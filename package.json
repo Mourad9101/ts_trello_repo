@@ -1,0 +1,31 @@
+{
+  "name": "ts-trello-cli",
+  "version": "1.0.0",
+  "description": "Un outil CLI de gestion de tâches inspiré de Trello, écrit en TypeScript.",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-task": "./dist/index.js",
+    "ts-board": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest --run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mourad9101/ts_trello_repo"
+  },
+  "keywords": ["cli", "trello", "typescript", "productivity", "task-manager"],
+  "author": "Mourad",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

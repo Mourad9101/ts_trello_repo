@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // Dossiers de travail
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environnement Node.js classique
+    "module": "commonjs",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "types": ["node"],
+
+    // Génération des fichiers .js et .map
+    "sourceMap": true,
+    "declaration": false,
+
+    // Vérifications strictes
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Compatibilité moderne import/export
+    "esModuleInterop": true,
+
+    // ⭐️ Activation des décorateurs
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false
+  },
+  "include": ["src"]
+}
