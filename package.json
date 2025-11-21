@@ -1,6 +1,6 @@
 {
   "name": "@mourad9101/ts-trello-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Un outil CLI de gestion de tâches inspiré de Trello, écrit en TypeScript.",
   "main": "dist/index.js",
   "bin": {
