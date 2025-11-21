@@ -30,7 +30,8 @@
     "access": "public"
   },
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md"
   ],
   "devDependencies": {
     "@types/node": "^24.10.0",
